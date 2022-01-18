@@ -20,7 +20,6 @@ body {
 }
 
 .nav-btn {
-    margin-right: 180px;
     filter: grayscale(1) invert(1);
     padding: 10px;
 }
@@ -32,6 +31,13 @@ body {
 
 .header-txt {
     color: white;
+}
+
+.header-txt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .drawer {
